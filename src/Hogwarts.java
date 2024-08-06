@@ -1,11 +1,11 @@
-public abstract class Hogwards {
+public abstract class Hogwarts {
     private final String faculty;
     private final String firstName;
     private final String secondName;
     private int magicPower;
     private int distanceTransgress;
 
-    public Hogwards(String faculty,String firstName, String secondName, int magicPower, int distanceTransgress) {
+    public Hogwarts(String faculty,String firstName, String secondName, int magicPower, int distanceTransgress) {
         this.faculty = faculty;
         this.firstName = firstName;
         this.secondName = secondName;
@@ -42,7 +42,7 @@ public abstract class Hogwards {
         return faculty;
     }
 
-    public void compareHogwartsStudents(Hogwards student) {
+    public void compareHogwartsStudents(Hogwarts student) {
 
         if ((getMagicPower() + getDistanceTransgress()) > (student.getMagicPower() + student.getDistanceTransgress())) {
             System.out.println(getFirstName() + " " + getSecondName() + " обладает большей мощностью магии = " + (getMagicPower() + getDistanceTransgress())

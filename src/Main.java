@@ -2,7 +2,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        ServiceHogwards serviceHogwarts = new ServiceHogwards();
+        ServiceHogwarts serviceHogwarts = new ServiceHogwarts();
         serviceHogwarts.compareStudentsFaculty(Griffindor.griffindors[2], Griffindor.griffindors[0]);
         System.out.println();
         serviceHogwarts.compareStudentsFaculty(Hufflepuff.hufflepuffs[1], Hufflepuff.hufflepuffs[2]);

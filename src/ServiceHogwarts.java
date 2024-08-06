@@ -1,4 +1,4 @@
-public class ServiceHogwards {
+public class ServiceHogwarts {
     public void compareStudentsFaculty(Griffindor firstStudent, Griffindor secondStudent) {
         int totalPointsFirstStudent = firstStudent.getNobility()
                 + firstStudent.getHonor()

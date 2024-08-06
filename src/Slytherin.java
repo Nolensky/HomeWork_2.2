@@ -1,4 +1,4 @@
-public class Slytherin extends Hogwards {
+public class Slytherin extends Hogwarts {
     int trick;
     int determination;
     int ambition;
